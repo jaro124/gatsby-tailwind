@@ -59,6 +59,7 @@ export default SEO
 
 SEO.propTypes = {
   title: PropTypes.string,
+  titleTemplate: PropTypes.string,
   description: PropTypes.string,
   image: PropTypes.string,
   pathname: PropTypes.string,
@@ -67,6 +68,7 @@ SEO.propTypes = {
 
 SEO.defaultProps = {
   title: null,
+  titleTemplate: null,
   description: null,
   image: null,
   pathname: null,
