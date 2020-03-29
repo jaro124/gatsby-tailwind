@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO 
+      title="Home"
+      keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
+    />
 
     <div className="px-4">
       <div className="max-w-3xl bg-white rounded-lg mx-auto my-16 p-16">

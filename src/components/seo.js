@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 
-const SEO = ({ title, description, image, pathname, article }) => (
+const SEO = ({ title, description, keywords, image, pathname, article }) => (
   <StaticQuery
     query={query}
     render={({
@@ -12,6 +12,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
           defaultTitle,
           titleTemplate,
           defaultDescription,
+          defaultKeywords,
           siteUrl,
           defaultImage,
           twitterUsername,
@@ -21,6 +22,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
       const seo = {
         title: title || defaultTitle,
         description: description || defaultDescription,
+        keywords: keywords || defaultKeywords,
         image: `${siteUrl}${image || defaultImage}`,
         url: `${siteUrl}${pathname || "/"}`,
       }
@@ -30,6 +32,7 @@ const SEO = ({ title, description, image, pathname, article }) => (
           <Helmet title={seo.title} titleTemplate={titleTemplate}>
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
+            <meta name="keywords" content={keywords.join(`, `)} />
             {seo.url && <meta property="og:url" content={seo.url} />}
             {(article ? true : null) && (
               <meta property="og:type" content="article" />
@@ -61,6 +64,7 @@ SEO.propTypes = {
   title: PropTypes.string,
   titleTemplate: PropTypes.string,
   description: PropTypes.string,
+  keywords: PropTypes.arrayOf(PropTypes.string),
   image: PropTypes.string,
   pathname: PropTypes.string,
   article: PropTypes.bool,
@@ -70,6 +74,7 @@ SEO.defaultProps = {
   title: null,
   titleTemplate: null,
   description: null,
+  keywords: [],
   image: null,
   pathname: null,
   article: false,
