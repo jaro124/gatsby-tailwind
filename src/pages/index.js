@@ -18,11 +18,18 @@ const IndexPage = () => (
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.
         <div className="mt-4">
           <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
-            <Link to="/works/">Read more</Link>
+            <Link to="/articles">Read more</Link>
           </button>
+        </div>
+        <div className="py-5">
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#gatsby</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#tailwind</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#tailwindcss</span>
+          <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black">#react</span>
         </div>
       </div>
     </div>
+
 
   </Layout>
 )

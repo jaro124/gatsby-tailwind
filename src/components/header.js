@@ -55,8 +55,8 @@ function Header() {
               title: `Home`
             },
             {
-              route: `/works`,
-              title: `Works`
+              route: `/articles`,
+              title: `Articles`
             },
             {
               route: `/about`,
