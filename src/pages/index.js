@@ -22,10 +22,13 @@ const IndexPage = () => (
           </button>
         </div>
         <div className="py-5">
-          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#gatsby</span>
-          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#tailwind</span>
-          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#tailwindcss</span>
-          <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black">#react</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#gatsby</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#tailwind</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#tailwindcss</span>
+          <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#react</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#framework</span>
+          <span className="inline-block bg-green-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#develop</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#design</span>
         </div>
       </div>
     </div>

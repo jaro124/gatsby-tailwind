@@ -55,8 +55,8 @@ const ArticlesPage = () => (
         </p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.
         <div className="py-5">
-          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2">#gatsby</span>
-          <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black">#react</span>
+          <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#gatsby</span>
+          <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#react</span>
         </div>
       </div>
     </div>
