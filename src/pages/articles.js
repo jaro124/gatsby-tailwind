@@ -36,7 +36,7 @@ const ArticlesPage = () => (
           <span className="inline-block bg-green-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#tailwindcss</span>
           <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#react</span>
         </div>
-        <h1 className="text-2xl font-medium mb-2">About tailwind CSS</h1>
+        <h1 className="text-2xl font-medium primary mb-2">About tailwind CSS</h1>
         <h2 className="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">My works</h2>
         <p className="text-sm text-gray-500 flex items-center pb-3">
         <svg 
