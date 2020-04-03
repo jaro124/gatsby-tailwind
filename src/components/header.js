@@ -35,6 +35,7 @@ function Header() {
         </Link>
 
         <button
+          aria-label="Menu"
           className="block md:hidden border border-white flex items-center px-3 py-2 rounded text-primary"
           onClick={() => toggleExpansion(!isExpanded)}
         >
@@ -77,6 +78,7 @@ function Header() {
           ))}
 
           <button
+            aria-label="Toggle theme"
             className="focus:outline-none mt-4 md:mt-0"
             onClick={toggleTheme}>
             <svg 

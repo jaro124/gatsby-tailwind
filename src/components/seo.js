@@ -16,6 +16,7 @@ const SEO = ({ title, description, keywords, image, pathname, article }) => (
           siteUrl,
           defaultImage,
           twitterUsername,
+          lang,
         },
       },
     }) => {
@@ -25,11 +26,13 @@ const SEO = ({ title, description, keywords, image, pathname, article }) => (
         keywords: keywords || defaultKeywords,
         image: `${siteUrl}${image || defaultImage}`,
         url: `${siteUrl}${pathname || "/"}`,
+        lang: lang,
       }
 
       return (
         <>
           <Helmet title={seo.title} titleTemplate={titleTemplate}>
+            <html lang={seo.lang} />  
             <meta name="description" content={seo.description} />
             <meta name="image" content={seo.image} />
             <meta name="keywords" content={keywords.join(`, `)} />
@@ -38,6 +41,7 @@ const SEO = ({ title, description, keywords, image, pathname, article }) => (
               <meta property="og:type" content="article" />
             )}
             {seo.title && <meta property="og:title" content={seo.title} />}
+            {seo.lang && <meta property="og:locale" content={seo.lang} />}
             {seo.description && (
               <meta property="og:description" content={seo.description} />
             )}
@@ -90,6 +94,7 @@ const query = graphql`
         siteUrl: url
         defaultImage: image
         twitterUsername
+        lang
       }
     }
   }

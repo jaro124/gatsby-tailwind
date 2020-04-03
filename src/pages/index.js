@@ -14,19 +14,19 @@ export default function Index() {
       title="Home"
       keywords={[`gatsby`, `tailwind`, `react`, `tailwindcss`]}
     />
-{console.log({toggleTheme})}
     <div className="px-4">
       <div className="max-w-4xl bg-secondary rounded-lg mx-auto my-8 p-16">
         <h1 className="text-2xl text-primary font-medium mb-2">Let's Build: With Tailwind CSS</h1>
         <h2 className="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">Tailwind CSS</h2>
         <p className="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.</p>
         <div className="mt-4">
-          <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+          <button aria-label="Read more" className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
             <Link to="/articles">Read more</Link>
           </button>
         </div>
         <div className="text-center">
           <button
+            aria-label="Toggle theme"
             className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
             onClick={toggleTheme}
           >

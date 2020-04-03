@@ -14,7 +14,7 @@ const ArticlesPage = () => (
       <div className="max-w-4xl bg-secondary rounded-lg mx-auto my-8 p-16">
         <h1 className="text-2xl font-medium text-primary mb-2">Start with Gatsby</h1>
         <h2 className="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">My works</h2>
-        <p class="text-sm text-gray-500 flex items-center pb-3">
+        <p className="text-sm text-gray-500 flex items-center pb-3">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 24 24" 
@@ -23,7 +23,7 @@ const ArticlesPage = () => (
           stroke-width="2" 
           stroke-linecap="round" 
           stroke-linejoin="round" 
-          class="text-gray-500 w-3 h-3 mr-3">
+          className="text-gray-500 w-3 h-3 mr-3">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
@@ -38,7 +38,7 @@ const ArticlesPage = () => (
         </div>
         <h1 className="text-2xl font-medium mb-2">About tailwind CSS</h1>
         <h2 className="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">My works</h2>
-        <p class="text-sm text-gray-500 flex items-center pb-3">
+        <p className="text-sm text-gray-500 flex items-center pb-3">
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 24 24" 
@@ -47,7 +47,7 @@ const ArticlesPage = () => (
           stroke-width="2" 
           stroke-linecap="round" 
           stroke-linejoin="round" 
-          class="text-gray-500 w-3 h-3 mr-3">
+          className="text-gray-500 w-3 h-3 mr-3">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
