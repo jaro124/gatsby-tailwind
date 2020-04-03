@@ -11,8 +11,8 @@ const ArticlesPage = () => (
     />
 
     <div className="px-4">
-      <div className="max-w-3xl bg-white rounded-lg mx-auto my-16 p-16">
-        <h1 className="text-2xl font-medium mb-2">Start with Gatsby</h1>
+      <div className="max-w-4xl bg-secondary rounded-lg mx-auto my-8 p-16">
+        <h1 className="text-2xl font-medium text-primary mb-2">Start with Gatsby</h1>
         <h2 className="font-medium text-sm text-indigo-400 mb-4 uppercase tracking-wide">My works</h2>
         <p class="text-sm text-gray-500 flex items-center pb-3">
         <svg 
@@ -29,7 +29,7 @@ const ArticlesPage = () => (
         </svg>
         2020-03-29 23:01:34
         </p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.
+        <p className="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.</p>
         <div className="py-5">
           <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#gatsby</span>
           <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#tailwind</span>
@@ -53,7 +53,7 @@ const ArticlesPage = () => (
         </svg>
         2020-03-28 14:31:34
         </p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.
+        <p className="text-primary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum illo cupiditate molestias atque consequuntur ea quo cumque, odit velit sint similique? Asperiores ratione aperiam tempora, alias corrupti deleniti quaerat molestiae.</p>
         <div className="py-5">
           <span className="inline-block bg-indigo-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#gatsby</span>
           <span className="inline-block bg-red-400 rounded-full px-3 py-1 text-xs font-semibold text-black mr-2 mt-2">#react</span>
