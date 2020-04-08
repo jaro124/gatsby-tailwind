@@ -3,10 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { useTheme } from "../utils/themeContext"
 
 export default function Index() {
-  const { toggleTheme } = useTheme()
   
   return (
     <Layout>
@@ -22,15 +20,6 @@ export default function Index() {
         <div className="mt-4">
           <button aria-label="Read more" className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
             <Link to="/articles">Read more</Link>
-          </button>
-        </div>
-        <div className="text-center">
-          <button
-            aria-label="Toggle theme"
-            className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
-            onClick={toggleTheme}
-          >
-            Toggle theme
           </button>
         </div>
 

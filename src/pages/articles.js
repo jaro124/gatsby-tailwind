@@ -23,7 +23,7 @@ const ArticlesPage = () => (
           stroke-width="2" 
           stroke-linecap="round" 
           stroke-linejoin="round" 
-          className="text-gray-500 w-3 h-3 mr-3">
+          className="text-gray-500 w-5 h-5 mr-3">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
@@ -47,7 +47,7 @@ const ArticlesPage = () => (
           stroke-width="2" 
           stroke-linecap="round" 
           stroke-linejoin="round" 
-          className="text-gray-500 w-3 h-3 mr-3">
+          className="text-gray-500 w-5 h-5 mr-3">
           <circle cx="12" cy="12" r="10"></circle>
           <polyline points="12 6 12 12 16 14"></polyline>
         </svg>
