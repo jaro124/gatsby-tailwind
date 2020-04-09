@@ -5,12 +5,16 @@ const Footer = ({ siteTitle }) => (
   <footer>
 
     <div className="flex">
-      <div className="w-1/2  bg-secondary text-primary p-4">
+      <div className="w-1/3  bg-secondary text-primary p-4">
         <p className="text-xs">Contact:</p>
         <p className="pl-4">Company: w129</p>
         <p className="pl-4">Address: Vermont Hills IL 60061</p>
         <p className="pl-4">Phone: (841) 6553228</p>
-        <p className="text-xs mt-2">Social:</p>
+        <p className="pl-4">E-mail: info(at)server.com</p>
+        
+      </div>
+      <div className="w-1/3  bg-secondary text-primary p-4">
+      <p className="text-xs mt-2">Social:</p>
         <div className="flex flex-wrap p-4">
           <svg 
             version="1.1" 
@@ -55,7 +59,7 @@ const Footer = ({ siteTitle }) => (
           </svg>
         </div>
       </div>
-      <div className="w-1/2  bg-secondary text-primary p-4">
+      <div className="w-1/3  bg-secondary text-primary p-4">
         <p className="text-xs">Site links:</p>
         <nav
           className="md:block md:flex md:items-center w-full md:w-auto"
@@ -84,7 +88,8 @@ const Footer = ({ siteTitle }) => (
           ))}         
         </nav>
         <p className="mt-2 text-xs">Build with:</p>
-        <p><a href="https://www.gatsbyjs.org" className="border-b-2 border-transparent hover:border-indigo-400">Gatsby</a> and <a href="https://tailwindcss.com/" className="border-b-2 border-transparent hover:border-indigo-400">Tailwind CSS</a></p>
+        <p><a href="https://www.gatsbyjs.org" className="block md:inline-block mt-4 md:mt-0 md:mr-6 no-underline font-medium text-primary border-b-2 border-transparent hover:border-indigo-400">Gatsby</a> 
+        <a href="https://tailwindcss.com/" className="block md:inline-block mt-4 md:mt-0 md:mr-6 no-underline font-medium text-primary border-b-2 border-transparent hover:border-indigo-400">Tailwind CSS</a></p>
       </div>
     </div>
 
