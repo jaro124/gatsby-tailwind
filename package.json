@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-tailwind-starter",
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jarek <jaro124@gmail.com>",
   "dependencies": {
     "gatsby": "^2.19.45",
     "gatsby-image": "^2.2.44",
@@ -26,7 +26,8 @@
     "tailwindcss": "^1.2.0"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "tailwind"
   ],
   "license": "MIT",
   "scripts": {
@@ -40,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/jaro124/gatsby-tailwind"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jaro124/gatsby-tailwind/issues"
   }
 }
